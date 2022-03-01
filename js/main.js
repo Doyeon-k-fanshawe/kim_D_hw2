@@ -40,7 +40,7 @@
 	}
 
 	function resetPuzzlePieces(){
-		var puzzleZoen = document.getElementsByClassName('puzzle-pieces')[0];
+		var puzzleZoen = document.getElementsByClassName("puzzle-pieces")[0];
 
 		if(dropZones[0].childElementCount > 0){
 			puzzleZoen.append(dropZones[0].children[0]);
