@@ -99,6 +99,14 @@ header h1 {
 
 header p, footer p { font-size: 1.7em; letter-spacing: 2px; margin: 10px 0 }
 
+#reset {
+	margin-top: 1em;
+	width: 80px;
+	height: 40px;
+	color: gray;
+
+}
+
 footer {
 	position: relative;
 	top: 65px;
