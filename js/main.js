@@ -63,11 +63,10 @@
 	dropZones.forEach(zone => {
 		zone.addEventListener("dragover", draggedOver);
 		zone.addEventListener("drop", handleDrop);
+		});
 
 	resetButton.addEventListener("click", () => {
 		location.reload();
 		})
 
-
-	});
 })();
